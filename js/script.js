@@ -50,7 +50,7 @@
     }; 
     const UL = document.querySelector('.effect');
     const SIZES = [25, 50, 75, 100]
-    fetch(`${API_URL}?id=${CITIES.join(',')}&appid=${API_KEY}&units=metric`)
+    // fetch(`${API_URL}?id=${CITIES.join(',')}&appid=${API_KEY}&units=metric`)
     .then(response => response.json())
     .then(data => {
         console.log(data);
