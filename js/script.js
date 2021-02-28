@@ -1,7 +1,7 @@
 (function(){
     'use strict';
     const API_KEY = '8a4a672079278f3239b0681c20463751';
-    // const API_URL = 'http://api.openweathermap.org/data/2.5/group';
+   
     const CITIES = [
         2267057,
         2968815,
@@ -50,7 +50,7 @@
     }; 
     const UL = document.querySelector('.effect');
     const SIZES = [25, 50, 75, 100]
-    // fetch(`${API_URL}?id=${CITIES.join(',')}&appid=${API_KEY}&units=metric`)
+   
     .then(response => response.json())
     .then(data => {
         console.log(data);
