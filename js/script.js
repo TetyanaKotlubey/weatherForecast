@@ -1,7 +1,7 @@
 (function(){
     'use strict';
     const API_KEY = '8a4a672079278f3239b0681c20463751';
-    const API_URL = 'http://api.openweathermap.org/data/2.5/group';
+    // const API_URL = 'http://api.openweathermap.org/data/2.5/group';
     const CITIES = [
         2267057,
         2968815,
